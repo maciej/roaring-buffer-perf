@@ -1,5 +1,12 @@
 # RoaringBitmap direct vs heap buffer performance
 
+To run the benchmark execute:
+```
+sbt "jmh:runMain me.maciejb.buffper.BackingBufferBenchmarkRunner"
+```
+
+## Results
+
 Running:
 * JMH1.13
 * JDK 1.8.0_101, VM 25.101-b13
